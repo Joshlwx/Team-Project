@@ -527,6 +527,82 @@ form a{
     transition: 1s;
 }
 
+/*------ contact page ------*/
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: radial-gradient(#ffffff,#ffd6d6);
+}
+.container{
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000;
+}
+.contact-form h1{
+    font-weight: bold;
+    margin-top: 0;
+}
+.text-btn{
+    border:1px solid black;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.submit-btn{
+    border:1px solid black;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: darksalmon;
+}
+.text-btn label{
+    display: block;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.text-btn input,.text-btn textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    color:black;
+
+}
+input[type="submit"]:hover{
+    background: pink;
+    color: #FFFFFF;
+}
+
+
+
 /*media query for less than 600 screen size*/
 @media only screen and (max-width: 600px){
     .row{
