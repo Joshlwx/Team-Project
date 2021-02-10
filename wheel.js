@@ -17,3 +17,4 @@
       wheel.style.transform = `rotate(${actualDeg}deg)`;
     });
   })();
+  confirm("Item Purchased!!")
