@@ -11,7 +11,7 @@ This website is mainly focusing on people that are interested to buy gaming prod
 As a users type, I want my users to first know my Name and my current education that I completed. Followed by giving my users 3 choices of button, my education, blog or contact to choose on which they want to navigate first.
 
 # Wireframe Link for Mobile View
----
+https://xd.adobe.com/view/51ab2bba-230a-4628-9bf1-290778dcf1d3-04f8/
 
 # Features
 First up, We would like to talk about our homepage. We have a welcome message followed by our latest product that we are promoting to our user which is the latest PlayStation 5 gaming console. Followed by our PlayStation 3 and 5 controller that we model and painted it. Afterwards, we showed the user our featured product and latest product. We also showed our user's positive review about our webpage to ensure their trust on us. Last but not least, we have our footer page which is at the bottom of every webpage that promoting to our user to download our mobile application and social media for user to follow up new products. 
