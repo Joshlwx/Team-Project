@@ -11,9 +11,7 @@ View a short demo of how the website works here -
 
 ## Design Process
 
-This website is mainly focusing on people that are interested to buy gaming products for their needs. Based on our project, We can helped them on achiveing this things as they are looking for their gaming products
-
-As a users type, I want my users to first know my Name and my current education that I completed. Followed by giving my users 3 choices of button, my education, blog or contact to choose on which they want to navigate first.
+This website is mainly focusing on people that are interested to buy gaming products for their needs. Based on our project, We can helped them on achiveing this things as they are looking for their gaming products.
 
 ## Wireframe Link for Mobile Version
 
