@@ -94,11 +94,13 @@ We came accross several bugs and unintentional mistakes from simple missed hyphe
 
 ## Credits
 Special Thanks to,
-~ Shoppee - an online e-commerce platform (https://shopee.sg/?gclid=Cj0KCQiA962BBhCzARIsAIpWEL0u-PgLE2FC5CO7nPfMpE-8IqOxrY5qp2D8KDPHDHOsIWs-ksLhoDEaAnezEALw_wcB)
-~ Sony - PlayStation (https://www.playstation.com/en-sg/)
-~ Microsoft - Xbox (https://www.xbox.com/en-SG/)
-~ Nintendo - (https://www.nintendo.com/switch/)
-~ Qisahn - an online gaming e-commerce platform (https://www.qisahn.com)
+- Shoppee - an online e-commerce platform (https://shopee.sg/?gclid=Cj0KCQiA962BBhCzARIsAIpWEL0u-PgLE2FC5CO7nPfMpE-8IqOxrY5qp2D8KDPHDHOsIWs-ksLhoDEaAnezEALw_wcB)
+- Sony - PlayStation (https://www.playstation.com/en-sg/)
+- Microsoft - Xbox (https://www.xbox.com/en-SG/)
+- Nintendo - (https://www.nintendo.com/switch/)
+- Qisahn - an online gaming e-commerce platform (https://www.qisahn.com)
+- Razer - Online gaming e-commerce platform (https://www.razer.com/sg-en/?)
+- Lenovo - a brand that sells all technologies based on gaming and professional needs (https://www.lenovo.com/sg/en/)
 
 
 ## Content
