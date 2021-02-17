@@ -1,7 +1,11 @@
 # E-Commerce Website (Eat Sleep Game Repeat)
 
-### ID_S10208533_Joshua_IntegratedProject
-### ID_S10207333_Arun_IntegratedProject
+## By:
+       ID_S10208533_Joshua_IntegratedProject
+       ID_S10207333_Arun_IntegratedProject
+
+
+
 
 For this project, We created a E-Commerce Website which sells gaming products. Our website focuses on gaming enthusiasts who prefer fun website that makes the fell rewarded even though they spend money. The site consists of several products from well known brands, and is on par with modern website designs. 
 
