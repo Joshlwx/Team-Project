@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="Javascript/account2.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
@@ -19,7 +22,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
+                    <li><a href="account2.html">Account</a></li>
                     <li><a href="profile_page.html">Profile</a></li>
                 </ul>
             </nav>
@@ -28,9 +31,13 @@
         </div>
     <div class="wrapper">
         <div class="left">
-            <img src="images/1*mk1-6aYaf_Bes1E3Imhc0A.jpg" alt="user" width="100" height="150">
-            <h4>Arun Lewin</h4>
-             <p>@ALeon13</p>
+          <div class="profile-pic-div">
+            <img src="images/profile.PNG" id="photo">
+            <input type="file" id="file">
+            <label for="file" id="uploadBtn">Choose Photo</label>
+          </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><h4>Joshua</h4>
+             <p>@Josh</p>
         </div>
         <div class="right">
             <div class="info">
@@ -38,7 +45,7 @@
                 <div class="info_data">
                      <div class="data">
                         <h4>Email</h4>
-                        <p>arun@gmail.com</p>
+                        <p>joshua@hotmail.com</p>
                      </div>
                      <div class="data">
                        <h4>Phone Number</h4>
@@ -67,11 +74,47 @@
                   <li><a href="#"><i class="fab fa-twitter px-3 h4 text-info"></i></a></li>
                   <li><a href="#"><i class="fab fa-instagram px-3 h4 text-info"></i></a></li>
               </ul>
-              <a href="index.html" class="btn" alt="Rbtn">Return Home</a>
-          </div>
+              <a href="index.html" class="btn2" alt="Rbtn">Return Home</a>
+              <button onclick="signOut()" id="signOut" class="btn2"> Sign Out </button>
+            </div>
         </div>
     </div>
   </div>
     </div>
+    <script src="Javascript/account2.js">
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAs11yjv7OSMcJAZqbN-tlJZhMU15pj5Dk",
+        authDomain: "form-48bb4.firebaseapp.com",
+        projectId: "form-48bb4",
+        storageBucket: "form-48bb4.appspot.com",
+        messagingSenderId: "1080082868834",
+        appId: "1:1080082868834:web:168eaaf33c030a394f3f3b"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+      const auth = firebase.auth();
+
+
+      function signOut(){
+        auth.signOut();
+        alert("Signed Out");
+      }
+
+      auth.onAuthStateChanged(function(user){
+        if(user){
+          var email = user.email;
+          alert("Active User " + email);
+
+          //is signed in
+        }else{
+          alert("No Active User");
+          //no user is signed in
+        }
+      });
+      
+    </script>
+    <script src="Javascript/profile.js"></script>
 </body>
 </html>

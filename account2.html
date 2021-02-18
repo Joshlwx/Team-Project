@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Spin 2 Win</title>
-</head>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Account</title>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+        <script src="Javascript/account2.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
 <body>
-    
+    <div class="container">
         <div class="navbar">
             <div class="logo">
             <a href="index.html"><img src= "images/branding.png" width="125px"></a>
@@ -19,16 +23,27 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="account2.html">Account</a></li>
                     <li><a href="profile_page.html">Profile</a></li>
-             </ul>
+                </ul>
             </nav>
             <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
         </div>
-        <div id="app">
-            <img class="marker" src="images/marker.png" />
-            <img class="wheel" src="images/wheel.png" />
-            <img class="button" src="images/button.png" />
-        </div>
+    </div>
+    
+    <div class="form_box">
+        <h1> Account Creation / Log In </h1>
+    </div>
+    <div id="formContainer">
+        <div id="header"></div>
+        <input type="text" placeholder="Username" id="username">
+        <input type="email" placeholder="email" id="email">
+        <input type="text" placeholder="Phone Number" id="phoneNumber">
+        <input type="password" placeholder="password" id="password">
+        
+        <button onclick="signUp()" id="signUp"> Sign Up </button>
+        <button onclick="signIn()" id="signIn"> Sign In </button>
+    </div>
 
     <div class="icon">
         <img src="images/ps5_icon.png">
@@ -39,7 +54,8 @@
         <img src="images/ps5_icon.png">
         <img src="images/ps5_icon.png">
     </div>
-    <script src="Javascript/wheel.js"></script>
-      
+
 </body>
+
+
 </html>
