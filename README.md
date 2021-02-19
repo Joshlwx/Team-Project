@@ -19,7 +19,7 @@ This website is mainly focusing on people that are interested to buy gaming prod
 
 ## Wireframe Link for Mobile Version
 
-https://xd.adobe.com/view/51ab2bba-230a-4628-9bf1-290778dcf1d3-04f8/
+https://xd.adobe.com/view/dd40a112-c79c-4291-99cb-99503fd8c246-8813/
 
 ## Features
 
