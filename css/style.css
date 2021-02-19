@@ -828,6 +828,10 @@ input[type="submit"]:hover{
   font-size: 18px;
 }
 
+#clrP{
+    color: white;
+}
+
 /*---Account Firebase Login---*/
 
 .form_box h1{
